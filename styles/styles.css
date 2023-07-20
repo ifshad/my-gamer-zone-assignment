@@ -73,7 +73,6 @@ nav li {
     background: rgba(11, 2, 35, 0.10);
     gap: 15px;
     padding: 10px;
-    /* border: 2px solid maroon; */
     font-weight: 500;
 }
 
@@ -96,7 +95,7 @@ nav .pink-text {
 }
 
 /* banner styles */
-.banner{
+.banner {
     display: flex;
 }
 
@@ -124,14 +123,33 @@ nav .pink-text {
 .banner-text {
     font-weight: 500;
 }
-.banner-button{
+
+.banner-button {
     display: flex;
     gap: 24px;
     white-space: nowrap;
 }
-.group-img-one{
+
+.group-img-one {
     width: 90%;
 }
+
+/* Online section styles */
+
+.online-games {
+    max-width: max-content;
+    border: 2px solid aquamarine;
+}
+
+.online-description {}
+
+.online-title {}
+
+.banner-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 /* media query */
 /* for mobiles */
