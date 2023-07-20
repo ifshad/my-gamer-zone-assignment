@@ -96,10 +96,14 @@ nav .pink-text {
 }
 
 /* banner styles */
+.banner{
+    display: flex;
+}
+
 .banner-description {
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
-    padding: 140px 240px;
+    padding: 120px 240px;
 }
 
 .goat {
@@ -118,6 +122,11 @@ nav .pink-text {
 
 .banner-text {
     font-weight: 500;
+}
+.banner-button{
+    display: flex;
+    gap: 24px;
+    white-space: nowrap;
 }
 
 /* media query */
