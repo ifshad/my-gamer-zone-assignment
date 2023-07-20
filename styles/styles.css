@@ -179,20 +179,26 @@ nav .pink-text {
     padding: 40px 120px;
 }
 
-.play-img-container {}
+.play-img-container {
+    margin: 0;
+    border: 2px solid red;
+}
 
 .play-description {
-    border: 2px solid aquamarine;
+    margin-left: 350px;
 }
 
 #big-img {
     width: 350px;
     height: 325px;
+    position: static;
 }
 
 #small-img {
     width: 159px;
     height: 182px;
+    position: relative;
+    transform: translateX(265px) translateY(-125px);
 }
 .play-description h1{
     font-size: 2.5rem;
