@@ -269,10 +269,12 @@ footer {
 .terms ul{
     display: flex;
     justify-content: space-around;
+    gap: 20px;
 }
 .footer-list ul{
     display: flex;
     justify-content: space-around;
+    gap: 20px;
 }
 .icons{}
 
@@ -284,6 +286,12 @@ footer li a{
     text-decoration: none;
     color: #FFFFFF;
 }
+.footer-image{
+    width: 50px;
+    height: 40px;
+    justify-content: center;
+}
+
 /* media query */
 /* for mobiles */
 @media screen and (max-width: 576px) {
