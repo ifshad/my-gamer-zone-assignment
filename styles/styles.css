@@ -309,15 +309,16 @@ footer li a{
         padding: 0px 40px;
         gap: 5px;
     }
-    .banner{
-        flex-direction: column-reverse;
-        max-width: vmax;
-    }
+
     .button-section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
     .play{
         flex-direction: column-reverse;
+    }
+    .banner-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
