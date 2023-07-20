@@ -137,7 +137,7 @@ nav .pink-text {
 
 .online-games {
     max-width: max-content;
-    border: 2px solid aquamarine;
+    padding: 50px 120px;
 }
 
 .online-description {
@@ -151,6 +151,7 @@ nav .pink-text {
 .banner-cards {
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
+    gap: 24px;
 }
 
 .online-description .goat {
@@ -164,7 +165,7 @@ nav .pink-text {
 
 .card {
     flex-wrap: wrap;
-    border: 2px solid aquamarine;
+    /* border: 2px solid aquamarine; */
 }
 .card > img{
     width: 100%;
