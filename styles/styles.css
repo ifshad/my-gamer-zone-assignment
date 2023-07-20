@@ -299,7 +299,7 @@ footer li a{
 @media screen and (max-width: 576px) {
 
     nav,
-    .menu {
+    .menu{
         flex-direction: column;
         padding: 0px 40px;
     }
@@ -310,6 +310,14 @@ footer li a{
         gap: 5px;
     }
     .banner{
+        flex-direction: column-reverse;
+        max-width: vmax;
+    }
+    .button-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .play{
         flex-direction: column-reverse;
     }
 }
