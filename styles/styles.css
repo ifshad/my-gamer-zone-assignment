@@ -176,11 +176,14 @@ nav .pink-text {
 .play {
     display: flex;
     align-items: center;
+    padding: 40px 120px;
 }
 
 .play-img-container {}
 
-.play-description {}
+.play-description {
+    border: 2px solid aquamarine;
+}
 
 #big-img {
     width: 350px;
@@ -191,7 +194,13 @@ nav .pink-text {
     width: 159px;
     height: 182px;
 }
+.play-description h1{
+    font-size: 2.5rem;
+}
 
+.play-description .goat{
+    font-size: 2.5rem;
+}
 
 /* media query */
 /* for mobiles */
