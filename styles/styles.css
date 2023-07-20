@@ -16,6 +16,7 @@
     border-radius: 48px;
     border: 0px;
     padding: 20px 40px;
+    cursor: pointer;
 }
 
 .blue-btn {
@@ -24,6 +25,7 @@
     color: #FFFFFF;
     border: 0;
     padding: 20px 40px;
+    cursor: pointer;
 }
 
 /* navigation bar styles */
@@ -33,7 +35,6 @@ nav {
     align-items: center;
     background-color: #FFFFFF;
     padding: 6px 120px;
-    /* border: 2px solid rebeccapurple; */
 }
 
 .title-container {
@@ -41,7 +42,6 @@ nav {
     color: #0B0223;
     font-weight: 700;
     align-items: center;
-    /* border: 2px solid blueviolet; */
 }
 
 nav li a {
@@ -103,7 +103,8 @@ nav .pink-text {
 .banner-description {
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
-    padding: 120px 240px;
+    background-size: 100%;
+    padding: 50px 340px 50px 120px;
 }
 
 .goat {
@@ -127,6 +128,9 @@ nav .pink-text {
     display: flex;
     gap: 24px;
     white-space: nowrap;
+}
+.group-img-one{
+    width: 90%;
 }
 
 /* media query */
