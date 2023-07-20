@@ -28,6 +28,12 @@
     cursor: pointer;
 }
 
+.primary-text {
+    color: #534C64;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
 /* navigation bar styles */
 nav {
     display: flex;
@@ -57,11 +63,9 @@ nav ul {
 
 nav li {
     margin-right: 16px;
-    font-weight: 500;
 }
 
 .social-img {
-    /* height: 30%; */
     width: 25px;
 }
 
@@ -73,7 +77,6 @@ nav li {
     background: rgba(11, 2, 35, 0.10);
     gap: 15px;
     padding: 10px;
-    font-weight: 500;
 }
 
 .menu {
@@ -120,10 +123,6 @@ nav .pink-text {
     font-size: 2.5rem;
 }
 
-.banner-text {
-    font-weight: 500;
-}
-
 .banner-button {
     display: flex;
     gap: 24px;
@@ -141,15 +140,35 @@ nav .pink-text {
     border: 2px solid aquamarine;
 }
 
-.online-description {}
-
-.online-title {}
-
-.banner-cards {
-    display: flex;
-    justify-content: space-evenly;
+.online-description {
+    text-align: center;
 }
 
+.online-title {
+    font-size: 2.5rem;
+}
+
+.banner-cards {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+.online-description .goat {
+    font-size: 2.5rem;
+}
+
+.online-description .primary-text {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card {
+    flex-wrap: wrap;
+    border: 2px solid aquamarine;
+}
+.card > img{
+    width: 100%;
+}
 
 /* media query */
 /* for mobiles */
