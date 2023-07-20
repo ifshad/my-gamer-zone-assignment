@@ -240,6 +240,7 @@ nav .pink-text {
 /* footer styles */
 footer {
     background-color: #0B0223;
+    color: #FFFFFF;
 }
 
 .footer-container {
@@ -261,6 +262,11 @@ footer {
 .footer-container > img{
     height: 5%;
 }
+
+.footer-list{}
+.icons{}
+.terms{}
+.info{}
 
 /* media query */
 /* for mobiles */
