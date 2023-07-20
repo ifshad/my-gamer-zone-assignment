@@ -276,7 +276,10 @@ footer {
     justify-content: space-around;
     gap: 20px;
 }
-.icons{}
+.icons a{
+    justify-content: center;
+    gap: 25px;
+}
 
 footer ul{
     list-style: none;
@@ -289,7 +292,6 @@ footer li a{
 .footer-image{
     width: 50px;
     height: 40px;
-    justify-content: center;
 }
 
 /* media query */
@@ -306,5 +308,8 @@ footer li a{
         flex-direction: column;
         padding: 0px 40px;
         gap: 5px;
+    }
+    .banner{
+        flex-direction: column-reverse;
     }
 }
