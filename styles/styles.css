@@ -302,6 +302,7 @@ footer li a{
     .menu{
         flex-direction: column;
         padding: 0px 40px;
+        justify-content: center;
     }
 
     nav ul {
@@ -320,5 +321,8 @@ footer li a{
     .banner-cards {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    body{
+        max-width: 576px;
     }
 }
