@@ -241,6 +241,9 @@ nav .pink-text {
 footer {
     background-color: #0B0223;
     color: #FFFFFF;
+    justify-content: center;
+    padding: 70px 500px;
+    white-space: nowrap;
 }
 
 .footer-container {
@@ -263,11 +266,24 @@ footer {
     height: 5%;
 }
 
-.footer-list{}
+.terms ul{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-list ul{
+    display: flex;
+    justify-content: space-around;
+}
 .icons{}
-.terms{}
-.info{}
 
+footer ul{
+    list-style: none;
+}
+
+footer li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 /* media query */
 /* for mobiles */
 @media screen and (max-width: 576px) {
