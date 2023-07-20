@@ -150,7 +150,7 @@ nav .pink-text {
 
 .banner-cards {
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
 
@@ -167,9 +167,31 @@ nav .pink-text {
     flex-wrap: wrap;
     /* border: 2px solid aquamarine; */
 }
-.card > img{
+
+.card>img {
     width: 100%;
 }
+
+/* Play games section styles */
+.play {
+    display: flex;
+    align-items: center;
+}
+
+.play-img-container {}
+
+.play-description {}
+
+#big-img {
+    width: 350px;
+    height: 325px;
+}
+
+#small-img {
+    width: 159px;
+    height: 182px;
+}
+
 
 /* media query */
 /* for mobiles */
