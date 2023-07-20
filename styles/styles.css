@@ -10,6 +10,22 @@
     color: #FF42A5;
 }
 
+.pink-btn {
+    background-color: #FF42A5;
+    color: #FFFFFF;
+    border-radius: 48px;
+    border: 0px;
+    padding: 20px 40px;
+}
+
+.blue-btn {
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFFFFF;
+    border: 0;
+    padding: 20px 40px;
+}
+
 /* navigation bar styles */
 nav {
     display: flex;
@@ -39,14 +55,16 @@ nav ul {
     align-items: center;
 }
 
-nav li{
+nav li {
     margin-right: 16px;
     font-weight: 500;
 }
+
 .social-img {
     /* height: 30%; */
     width: 25px;
 }
+
 .social-container {
     display: flex;
     color: #3C354F;
@@ -77,14 +95,42 @@ nav .pink-text {
     font-size: 2.5rem;
 }
 
+/* banner styles */
+.banner-description {
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    padding: 140px 240px;
+}
+
+.goat {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+.play-text {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.banner-text {
+    font-weight: 500;
+}
+
 /* media query */
 /* for mobiles */
 @media screen and (max-width: 576px) {
-    nav, .menu{
+
+    nav,
+    .menu {
         flex-direction: column;
         padding: 0px 40px;
     }
-    nav ul{
+
+    nav ul {
         flex-direction: column;
         padding: 0px 40px;
         gap: 5px;
